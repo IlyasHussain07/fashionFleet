@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 1000px;
+    /* border: 1px solid #000; */
+}
+.rightMenu1{
+    display: flex;
+   padding: 10px;
+   justify-content: flex-end;
+   cursor: pointer;
+        
+}
+.rightMenu1_help{
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.popup_1On{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+}
+.popup_1Off{
+   display: none;
+   
+}
+.login_container{
+    background: white;
+    padding: 20px;
+}
+
+
+.LOGO1{
+    height: 70px;
+    width: 130px;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.login_container1{
+    background: white;
+    padding: 20px;
+    border: 2px solid gainsboro; 
+}
+.dropDown_1On{
+    position: fixed;
+    top: 50px;
+    right: 30px;
+    display: block;
+}
+.dropDown_1Off{
+    display: none;
+}
+.DropDown_close button{
+   background: none;
+   float: right;
+}
+.login_close{
+    float: right;
+    font-size: 22px !important;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.login_page{
+    width: 350px;
+    background: white;
+    padding: 10px;
+    position: relative;
+}
+.login_nav{
+    width: 100%;
+    padding: 10px;
+}
+.login_nav button{
+    width: 45%;
+    background: none;
+    border: 1px solid gainsboro;
+    height: 35px;
+    margin-right: 10px;
+}
+.login_body label{
+   margin-bottom: 5px;
+   padding: 10px;
+}
+.login_body {
+    width: 100%;
+    padding: 10px;
+}
+.button_curser{
+    cursor: pointer;
+}
+.button_curser:hover{
+   border: 3px solid orange;
+}
+.login_body input{
+    width: 96%;
+    height: 35px;
+    border: none;
+    border-bottom: 2px solid orange;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.login_body button{
+    width: 50%;
+    height: 35px;
+    background: orange;
+    border: 1px solid orange;
+    font-weight: 550;
+}
+.help_close{
+    float: right;
+    font-size: 22px !important;
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    cursor: pointer;
+}
+.dropDown_body{
+    padding: 10px;
+}
+

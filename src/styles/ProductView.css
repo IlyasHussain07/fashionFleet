@@ -1,0 +1,30 @@
+.image__main{
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+.image__main1{
+    display: flex;
+    width: 200px;
+    height: 500px;      
+}
+.image__main1 :hover{
+    
+    transform: scale(1.1);
+}
+.image__main2{
+    display: flex;
+    width: 200px;
+    height: 500px;
+    margin-top: 10px;
+  
+}
+
+@media(max-width:768px) {
+    .image__main1{
+        flex-direction: column;
+    }
+    .image__main1:hover{
+        transform: scale(1.1);
+    }
+}

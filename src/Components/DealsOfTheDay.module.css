@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.title{
+    font-size: 22px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    padding: 10px;
+    border-bottom: 2px solid #d2d2d2;
+}
+.deals{
+    background: #f8f8f8;
+    width: 100%;
+}
+.section_1{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
+    width: 100%;
+}
+.watches{
+    background: #050A30;
+    max-width: 47%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+}
+.watchesDetails{
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+}
+.watchesDetails_1{
+    font-size: 28px;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+.watchesDetails_2{
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 5px;
+}
+.watchesDetails_3{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.watchesDetails button{
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    font-weight: 550;
+    transition: 1s;
+    cursor: pointer;
+}
+.watchesDetails button:hover{
+    background: #fff;
+    color: #050A30;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.watches_container img{
+    width: 300px;
+    transition: 1s;
+    cursor: pointer;
+}
+.watches_container img:hover,
+.shoes_container img:hover,
+.makeup_container img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.shoes{
+    max-width: 47%;
+    width: 100%;
+    background: linear-gradient(90deg,#ff6347,#e14529);
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.shoesDetails{
+    margin-left: 50px;
+}
+.shoesDetails p{
+    font-size: 24px;
+    font-weight: 550;
+    margin-bottom: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.shoes_container img{
+    width: 250px;
+    transition: 1s;
+    cursor: pointer;
+}
+.circle{
+    width: 300px;
+    height: 300px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: -60px;
+}
+
+.section_2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg,#ff748b,#fe7bb0);
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+    text-align: center;
+}
+.makeup_details{
+    padding: 5px;
+}
+.makeup_details span{
+    padding: 10px;
+    font-size: 28px;
+    font-weight: 550;
+}
+.makeup_details p{
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: 10px;
+}
+.makeup_details button{
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    border: 1px solid #000;
+    background: none;
+    border-radius: 20px;
+    font-weight: 550;
+    transition: 1s;
+    cursor: pointer;
+}
+.makeup_details button:hover{
+    background: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 1s;
+}
+.makeup_container img{
+    width: 200px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+@media(max-width: 1024px){
+    .section_1{
+        width: 100%;
+    }
+    .watches{
+        margin-bottom: 10px;
+        flex-direction: column-reverse;
+    }
+    .shoes{
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+    .shoesDetails{
+        margin-left: 0;
+    }
+    .circle{
+        display: none;
+    }
+}
+
+@media(max-width: 500px){
+    .title{
+        font-size: 10px;
+    }
+    .section_1{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .watches{
+        margin-bottom: 10px;
+        flex-direction: column-reverse;
+        max-width: 380px;
+    }
+    .shoes{
+        flex-direction: column-reverse;
+        max-width: 380px;
+    }
+    .shoesDetails{
+        margin-top: 10px;
+    }
+    .section_2{
+        flex-direction: column;
+        max-width: 380px;
+    }
+    .image4{
+        display: none;
+    }
+}
+
+

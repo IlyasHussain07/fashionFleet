@@ -1,0 +1,110 @@
+.footer__main {
+    background: #0c2736;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.footer__options p {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 15px;
+    display:flex;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+ .footer__options span{
+     color: grey;
+ }
+.footer__options2{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+}
+.footer__options2 span{
+    margin-bottom: 10px;
+    color: grey;
+}
+.footer__options2 img{
+    cursor: pointer;
+}
+.footer__section1 {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    
+  
+}
+
+
+.footer__section__2 {
+    padding: 10px35px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.footer__info {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icons {
+    /* color: rgb(255, 199, 15); */
+    margin-right: 8px;
+    font-family: jioicons!important;
+    font-size: 20px!important;
+}
+.ps__1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.searches{
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.contact {
+    /* -webkit-box-flex: 1;
+    -ms-flex: 1; */
+    /* flex: 1; */
+    color: #696b79;
+    text-align: left;
+    margin-left: 50px;
+    
+}
+.tysons {
+    /* -webkit-box-flex: 1;
+    -ms-flex: 1; */
+    /* flex: 1; */
+    color: #94969f;
+    text-align: right;
+    margin-right: 50px;
+
+}
+.app{
+    margin-right: 10px;
+    height: 42px;
+}
+.none{
+    display: block;
+}
+.none_sect-2{
+    display: flex;
+}
+@media(max-width:768px) {
+    
+    .none{
+        display: none;
+
+    }
+    .footer__options2{
+        display: none;
+    }
+    .none_sect-2{
+        display: none;
+    }
+}

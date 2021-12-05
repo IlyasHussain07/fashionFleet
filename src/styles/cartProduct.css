@@ -1,0 +1,26 @@
+.cart_product{
+    position: relative;
+    margin-top: 10px;
+    border-bottom: 1px solid #d2d2d2;
+}
+.closeIcon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 28px !important;
+}
+.cart_product_btn{
+    width: 40px;
+    height: 35px;
+    background: #fff;
+    border: 2px solid #ff3f6c;
+    border-radius: 5px;
+}
+.cart_product_btn:hover{
+    background: #ff3f6c;
+    color: #fff;
+    border: 2px solid #ff3f6c;
+}
+.qtyButton{
+    width: 150px;
+}

@@ -1,0 +1,39 @@
+.Top_Header{
+    display: flex;
+    
+}
+.topBrandsTitle{
+    font-size: 38px;
+    border-bottom: 1px solid #d2d2d2;
+    padding: 20px;
+}
+.Top_brands1 img{
+ margin-left: 5px;
+   margin-right: 8px;
+    width: 260px;
+    height: 350px;
+}
+.Top_brands1{
+    background-color: rgb(230, 227, 227);
+  
+}
+.header_block{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media (max-width:768px){
+    .Top_Header{
+        display: block;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:550px){
+    .Top_Header{
+        display: block;
+        margin-left: 50px;
+    }
+}
+

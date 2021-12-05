@@ -1,0 +1,18 @@
+.Top_Header{
+  font-size: 12px;
+    
+}
+  
+
+@media (max-width:768px){
+    .Top_Header{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:550px){
+    .Top_Header{
+        font-size: 10px;
+    }
+}
+

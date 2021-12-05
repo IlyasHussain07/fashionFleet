@@ -1,0 +1,98 @@
+
+
+.filterNsort{
+  display: flex;
+  margin-left: 130px;
+  justify-content: space-evenly;
+}
+
+.filter{
+  display: flex;
+  margin-top: 10px;
+
+}
+.bundles{
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
+.checkboxes{
+    position: absolute;
+    
+    margin-left: 0px;
+}
+.size_input {
+  
+  margin-right: 8px;
+  margin-left: 8px;
+}
+ .checkboxes .size_input input{
+  height: 16px;
+  width: 16px;
+  border-radius: 0px solid black;
+  padding-left: 0px;
+color: pink;
+ 
+}
+
+.select-box{position: relative;
+  width: 400px;
+  margin-left: 50px;
+  margin-top: 10px;
+  }
+  .select-box select{
+  
+  padding: 9px 14px;
+  font-size: 14px;
+  color: black;
+  position: relative;
+  cursor: pointer;
+  width: 255px;
+  background-color: #fff;
+  border: 1px solid #d4d5d9;
+  
+  
+  }
+  
+  .select-box span{
+  position: absolute;
+  z-index: 1;
+  display: inline-block;
+  text-align:center;
+  background-color: white;
+  top: 6px;
+  margin-left: 8px;
+  
+  }
+  .select-box option{
+  text-align:center;
+  background-color: white;
+  top: 3px;
+  font-size: 16px;
+  
+  
+  }
+  @media(max-width:570px){
+    .filterNsort{
+      width: 550px;
+     /* justify-content: space-evenly; */
+    margin-left: 0px;
+   
+    }
+    .filter{
+      margin-left: 0px;
+      
+    }
+    .bundles{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .select-box{
+        margin-left: 0px;
+    }
+    .select-box select{
+        width: 240px;
+    }
+   
+   
+  }

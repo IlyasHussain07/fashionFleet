@@ -1,0 +1,252 @@
+[
+    {
+        "_id": 1,
+        "name": "Topwear",
+        "category": "mens"
+    },
+    {
+        "_id": 2,
+        "name": "Indian & Festive Wear",
+        "category": "mens"
+    },
+    {
+        "_id": 3,
+        "name": "Bottomwear",
+        "category": "mens"
+    },
+    {
+        "_id": 4,
+        "name": "Innerwear & Sleepwear",
+        "category": "mens"
+    },
+    {
+        "_id": 5,
+        "name": "Plus Size",
+        "category": "mens"
+    },
+    {
+        "_id": 6,
+        "name": "Footwear",
+        "category": "mens"
+    },
+    {
+        "_id": 7,
+        "name": "Personal Care & Grooming",
+        "category": "mens"
+    },
+    {
+        "_id": 8,
+        "name": "Sunglasses & Frames",
+        "category": "mens"
+    },
+    {
+        "_id": 9,
+        "name": "Watches",
+        "category": "mens"
+    },
+    {
+        "_id": 10,
+        "name": "Sports & Active Wear",
+        "category": "mens"
+    },
+    {
+        "_id": 11,
+        "name": "Gadgets",
+        "category": "mens"
+    },
+    {
+        "_id": 12,
+        "name": "Fashion Accessories",
+        "category": "mens"
+    },
+    {
+        "_id": 13,
+        "name": "Bags & Backpacks",
+        "category": "mens"
+    },
+    {
+        "_id": 14,
+        "name": "Indian & Fusion Wear",
+        "category": "womens"
+    },
+    {
+        "_id": 15,
+        "name": "Belts, Scarves & more",
+        "category": "womens"
+    },
+    {
+        "_id": 16,
+        "name": "Watches & Wearables",
+        "category": "womens"
+    },
+    {
+        "_id": 17,
+        "name": "Western Wear",
+        "category": "womens"
+    },
+    {
+        "_id": 18,
+        "name": "Plus Size",
+        "category": "womens"
+    },
+    {
+        "_id": 19,
+        "name": "Sunglasses & Frames",
+        "category": "womens"
+    },
+    {
+        "_id": 20,
+        "name": "Footwear",
+        "category": "womens"
+    },
+    {
+        "_id": 21,
+        "name": "Jewellery",
+        "category": "womens"
+    },
+    {
+        "_id": 22,
+        "name": "backpacks",
+        "category": "womens"
+    },
+    {
+        "_id": 23,
+        "name": "Handbags, Bags & wallets",
+        "category": "womens"
+    },
+    {
+        "_id": 24,
+        "name": "Boys Clothings",
+        "category": "kids"
+    },
+    {
+        "_id": 25,
+        "name": "Girls Clothing",
+        "category": "kids"
+    },
+    {
+        "_id": 26,
+        "name": "Footwear",
+        "category": "kids"
+    },
+    {
+        "_id": 27,
+        "name": "Toys",
+        "category": "kids"
+    },
+    {
+        "_id": 28,
+        "name": "Infants",
+        "category": "kids"
+    },
+    {
+        "_id": 29,
+        "name": "Home & Bath",
+        "category": "kids"
+    },
+    {
+        "_id": 30,
+        "name": "Personal Care",
+        "category": "kids"
+    },
+    {
+        "_id": 31,
+        "name": "Kids Accessories",
+        "category": "kids"
+    },
+    {
+        "_id": 32,
+        "name": "Bed Linen & Furnishing",
+        "category": "home"
+    },
+    {
+        "_id": 33,
+        "name": "Flooring",
+        "category": "home"
+    },
+    {
+        "_id": 34,
+        "name": "Bath",
+        "category": "home"
+    },
+    {
+        "_id": 35,
+        "name": "Lamps & Lighting",
+        "category": "home"
+    },
+    {
+        "_id": 36,
+        "name": "Home Dėcor",
+        "category": "home"
+    },
+    {
+        "_id": 37,
+        "name": "Cutains",
+        "category": "home"
+    },
+    {
+        "_id": 38,
+        "name": "Home Gift Sets",
+        "category": "home"
+    },
+    {
+        "_id": 39,
+        "name": "Kitchen & Table",
+        "category": "home"
+    },
+    {
+        "_id": 40,
+        "name": "Storage",
+        "category": "home"
+    },
+    {
+        "_id": 41,
+        "name": "Makeup",
+        "category": "beauty"
+    },
+    {
+        "_id": 42,
+        "name": "Skincare, Bath & Body",
+        "category": "beauty"
+    },
+    {
+        "_id": 43,
+        "name": "Baby Care",
+        "category": "beauty"
+    },
+    {
+        "_id": 44,
+        "name": "Masks",
+        "category": "beauty"
+    },
+    {
+        "_id": 45,
+        "name": "Haircare",
+        "category": "beauty"
+    },
+    {
+        "_id": 46,
+        "name": "Fragrances",
+        "category": "beauty"
+    },
+    {
+        "_id": 47,
+        "name": "Premium Beauty",
+        "category": "beauty"
+    },
+    {
+        "_id": 48,
+        "name": "Beauty Gifts & Makeup Set",
+        "category": "beauty"
+    },
+    {
+        "_id": 49,
+        "name": "Wellness & Hygiene",
+        "category": "beauty"
+    },
+    {
+        "_id": 50,
+        "name": "Top Brands",
+        "category": "beauty"
+    }
+]

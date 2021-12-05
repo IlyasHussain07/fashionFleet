@@ -1,0 +1,150 @@
+.homeIntergration{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+.part_2{
+    max-width: 1000px;
+    width: 100%;
+}
+.section_2{
+    width: 1000px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.sideNavBar{
+    display: none;
+}
+.hambugerMenu span{
+    display: block;
+    width: 34px;
+    height: 5px;
+    background: #000;
+    margin-top: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.navabar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 100vh;
+    overflow: auto;
+    z-index: 11;
+    transition: 2s;
+}
+.navabarOff{
+    position: fixed;
+    top: 0;
+    left: -400px;
+    width: 350px;
+    height: 100vh;
+    overflow: auto;
+    z-index: 11;
+    transition: 2s;
+}
+.navbar_section_1{
+    background: #3f3947;
+    color: #ffff;
+    padding: 10px;
+    border-right: 2px solid #d2d2d2;
+}
+.navabar_header{
+    display: flex;
+    justify-content: space-between;
+}
+.userProfile{
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 1px #fff;
+}
+.headerIcons_1{
+    font-size: 38px;
+    color: #000;
+    cursor: pointer;
+}
+.headerIcons_2{
+    font-size: 38px;
+    cursor: pointer;
+}
+.userName_navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+}
+.userName_navbar p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: -5px;
+}
+.navbar_section_2{
+    background: #fff;
+    margin-bottom: -10px;
+    border-right: 2px solid #d2d2d2;
+}
+.navbar_section_2 span{
+    background: none;
+    width: 100%;
+}
+.navabar_body_1 ul li{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.navabar_body_1 ul li p{
+    font-weight: bold;
+    padding-top: 2px;
+}
+.navbar_nextIcon{
+    font-size: 24px;
+    cursor: pointer;
+}
+.navabar_body_2 ul li{
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.navbar_hover{
+    display: block;
+    padding: 10px;
+}
+.navbar_hoverOff{
+    display: none;
+}
+.navbar_hover p{
+    border-bottom: 1px solid #ebebeb;
+    padding: 10px;
+}
+
+
+
+
+
+@media(max-width: 768px){
+    .homeIntergration{
+        align-items: center;
+        justify-content: space-between;
+    }
+    .part_2{
+        display: none;
+    }
+    .sideNavBar{
+        display: block;
+    }
+    .sideNavBarOff{
+        display: none;
+    }
+}

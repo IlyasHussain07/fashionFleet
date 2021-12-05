@@ -1,0 +1,160 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.filterSection{
+    width: 250px;
+    border-right: 2px solid #d2d2d2;
+    border-bottom: 2px solid #d2d2d2;
+    position: relative;
+    height: 100%;
+}
+.filterSection h3{
+    padding: 10px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d2d2d2;
+}
+.titles{
+    display: flex;
+    justify-content: space-between;
+}
+.genSection,
+.categories_Section,
+.brandSection,
+.priceSection,
+.colorSection,
+.discountSection{
+    padding: 10px;
+    border-bottom: 1px solid #d2d2d2;
+}
+.genSection p,
+.categories_Section p,
+.titles,
+.brandSection p,
+.priceSection p,
+.colorSection p,
+.discountSection p{
+    padding: 5px;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+}
+.genSection p input,
+.categories_Section p input,
+.brandSection p input,
+.priceSection p input,
+.colorSection p input,
+.discountSection p input{
+    margin-right: 5px;
+}
+.genSection p span,
+.categories_Section p span,
+.brandSection p span,
+.priceSection p span,
+.colorSection p span,
+.discountSection p span{
+    margin-left: 5px;
+    color: #797979;
+}
+
+.colorSection p label{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.black{
+    background: #000;
+    border: 1px solid #000;
+}
+.navyBlue{
+    background: rgb(4, 4, 107);
+    border: 1px solid rgb(4, 4, 107);
+}
+.blue{
+    background: blue;
+    border: 1px solid blue;
+}
+.white{
+    background: #fff;
+    border: 1px solid #000;
+}
+.pink{
+    background: pink;
+    border: 1px solid pink;
+}
+.green{
+    background: green;
+    border: 1px solid green;
+}
+.gray{
+    background: gray;
+    border: 1px solid gray;
+}
+.closeIcon{
+    display: none;
+}
+.mobilePopup{
+    display: none;
+    width: 100%;
+    padding: 20px 10px;
+    border-bottom: 2px solid #d2d2d2;
+}
+.mobilePopup button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 35px;
+    font-size: 17px;
+    background: #fff;
+    border: 1px solid #d2d2d2;
+    box-shadow: 0 0 10px #d2d2d2;
+}
+.filterIcon{
+    font-size: 20px !important;
+    margin-left: 5px;
+}
+
+@media(max-width: 550px){
+    .filterSection{
+        position: fixed;
+        top: 0;
+        left: -350px;
+        height: 100vh;
+        overflow-y: auto;
+        transition: 1s;
+        background: #fff;
+    }
+    .filterSectionOn{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        overflow-y: auto;
+        transition: 1s;
+        background: #fff;
+        border-right: 2px solid #d2d2d2;
+    }
+    .filterSectionOn h3{
+        display: flex;
+        font-size: 22px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        border-bottom: 2px solid #d2d2d2;
+    }
+    .closeIcon{
+        display: block;
+    }
+    .mobilePopup{
+        display: block;
+    }
+}

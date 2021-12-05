@@ -1,0 +1,182 @@
+[
+    {
+        "_id": 1,
+        "name": "Men",
+        "type": "fashion"
+    },
+    {
+        "_id": 2,
+        "name": "Women",
+        "type": "fashion"
+    },
+    {
+        "_id": 3,
+        "name": "Boys",
+        "type": "fashion"
+    },
+    {
+        "_id": 4,
+        "name": "Shirts",
+        "type": "categories",
+        "count": 211
+    },
+    {
+        "_id": 5,
+        "name": "T-Shirts",
+        "type": "categories",
+        "count": 109
+    },
+    {
+        "_id": 6,
+        "name": "Jeans",
+        "type": "categories",
+        "count": 78
+    },
+    {
+        "_id": 7,
+        "name": "Sweatshirts",
+        "type": "categories",
+        "count": 64
+    },
+    {
+        "_id": 8,
+        "name": "Trousers",
+        "type": "categories",
+        "count": 58
+    },
+    {
+        "_id": 9,
+        "name": "Dresses",
+        "type": "categories",
+        "count": 53
+    },
+    {
+        "_id": 10,
+        "name": "Jackets",
+        "type": "categories",
+        "count": 45
+    },
+    {
+        "_id": 11,
+        "name": "Handbags",
+        "type": "categories",
+        "count": 45
+    },
+    {
+        "_id": 12,
+        "name": "Ted Baker",
+        "type": "brands",
+        "count": 151
+    },
+    {
+        "_id": 13,
+        "name": "Hackett London",
+        "type": "brands",
+        "count": 102
+    },
+    {
+        "_id": 14,
+        "name": "Polo Ralph Lauren",
+        "type": "brands",
+        "count": 90
+    },
+    {
+        "_id": 15,
+        "name": "Hugo",
+        "type": "brands",
+        "count": 81
+    },
+    {
+        "_id": 16,
+        "name": "Fred Perry",
+        "type": "brands",
+        "count": 61
+    },
+    {
+        "_id": 17,
+        "name": "Rinascimento",
+        "type": "brands",
+        "count": 42
+    },
+    {
+        "_id": 18,
+        "name": "Karl Lagerfeld",
+        "type": "brands",
+        "count": 32
+    },
+    {
+        "_id": 19,
+        "name": "Rs. 1050 to Rs.48538",
+        "type": "price",
+        "count": 892
+    },
+    {
+        "_id": 20,
+        "name": "Rs.48538 to Rs.96026",
+        "type": "price",
+        "count": 17
+    },
+    {
+        "_id": 21,
+        "name": "Rs.96026 to Rs.143514",
+        "type": "price",
+        "count": 1
+    },
+    {
+        "_id": 22,
+        "name": "Black",
+        "type": "colors",
+        "count": 211
+    },
+    {
+        "_id": 23,
+        "name": "Navy Blue",
+        "type": "colors",
+        "count": 150
+    },
+    {
+        "_id": 24,
+        "name": "Blue",
+        "type": "colors",
+        "count": 140
+    },
+    {
+        "_id": 25,
+        "name": "White",
+        "type": "colors",
+        "count": 65
+    },
+    {
+        "_id": 26,
+        "name": "Pink",
+        "type": "colors",
+        "count": 65
+    },
+    {
+        "_id": 27,
+        "name": "Green",
+        "type": "colors",
+        "count": 41
+    },
+    {
+        "_id": 28,
+        "name": "Gray",
+        "type": "colors",
+        "count": 39
+    },
+    {
+        "_id": 29,
+        "name": "10% and above",
+        "type": "discount"
+    },
+    {
+        "_id": 30,
+        "name": "20% and above",
+        "type": "discount"
+    },
+    {
+        "_id": 31,
+        "name": "40% and above",
+        "type": "discount"
+    }
+]

@@ -1,0 +1,93 @@
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+.checkbox_item{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ff3f6c;
+    border-radius: 2px;
+    position: relative;
+    background: #ff3f6c;
+    box-shadow:  0 0 2px #000;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.check{
+    position: absolute;
+    top: -3px;
+    left: -2px;
+    font-size: 18px !important;
+    color: #fff;
+    opacity: 0;
+    transition: .8s;
+}
+.check_on{
+    position: absolute;
+    top: -3px;
+    left: -2px;
+    font-size: 18px !important;
+    color: #fff;
+    opacity: 1;
+    transition: .8s;
+}
+.checkbox_nameColor{
+    color: #ff3f6c;
+}
+
+
+/* input.radioButton{
+    width: 15px;
+    height: 15px;
+} */
+
+/* input.inputCheckbox{
+    width: 15px;
+    height: 15px;
+} */
+
+.radio{
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+    padding-left: 30px;
+    position: relative;
+}
+.radio + .radio{
+    margin-left: 10px;
+}
+.radio input[type="radio"]{
+    display: none;
+}
+.radio span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: block;
+    border: 3px solid #ff3f6c;
+    position: absolute;
+    top: 8px;
+    left: 2px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+.radio span:after{
+    content: "";
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #ff3f6c;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: 300ms ease-in-out 0s;
+}
+.radio input[type="radio"]:checked~span:after {
+    transform: translate(-50%, -50%) scale(1);
+}

@@ -1,0 +1,59 @@
+
+.Product_header{
+    margin-top: 30px;
+    width: 200px;
+    height: 390px;
+    background-color: rgb(241, 237, 237);
+
+    margin-left: 40px;
+    position: relative;
+    
+}
+
+.image_layout img{
+    
+    width: 180px;
+    margin-top: 5px;
+}
+.image_layout{
+    text-align: center;
+}
+
+.product_price p{
+    margin-left: -10px;
+    color: rgb(235, 137, 156);
+    font-size: 11px;
+    margin-top: 8px;
+    font-weight: 550;
+}
+
+.product_price del{
+   margin-left: 10px;
+   font-size: 11px;
+}
+
+
+.product_price{
+    font-size: 13px;
+    margin-left: 30px;
+}
+.movetobag{
+  margin-left: 50px;
+  margin-top: -10px;
+  color: rgb(235, 137, 156);
+  font-size: 15px;
+}
+.wishlist{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}.cross{
+    margin-left: 170px;
+    margin-top: 10px;
+    position: absolute;
+    top: 0px;
+    right: 8px;
+    font-size: 23px !important;
+    background-color: gainsboro;
+    border-radius: 50%;
+}

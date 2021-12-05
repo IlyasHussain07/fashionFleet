@@ -1,0 +1,16 @@
+.ProductCard_section2{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+
+}
+.ProductCard_Filters{
+    width: 20%;
+}
+.ProductCard_products{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}

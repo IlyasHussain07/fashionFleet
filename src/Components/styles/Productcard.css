@@ -1,0 +1,113 @@
+/* .productcards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+} */
+.Productcard_child{
+    max-width: 250px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.image_container{
+    width: 100%;
+}
+.image_container img{
+    width: 100%;
+
+}
+.product_details{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.productCard_title{
+    -webkit-line-clamp: 1;
+}
+.reviews{
+    margin-top: -10px;
+    display: flex;
+}
+.reviews p{
+    margin-right: 10px;
+}
+
+
+
+.btn_cart {
+    height:30px;
+    width:80%;
+    color:white;
+    text-align:center;
+    background-color:#e4398e;
+    border : none;
+    cursor :pointer;
+
+}
+.btn_cart_disable{
+    height:30px;
+    width:80%;
+    color:white;
+    text-align:center;
+    background-color:#808080;
+    border : none;
+    cursor :not-allowed;
+}
+.btn_wishlist{
+    height:30px;
+    width:80%;
+    color:white;
+    border : none;
+    text-align:center;
+    background-color:#ff8b1f;
+    cursor :pointer;
+}
+.btn_wishlist_disable{
+    height:30px;
+    width:80%;
+    color:white;
+    border : none;
+    text-align:center;
+    background-color:#808080;
+    cursor :not-allowed;
+}
+
+.overlay{
+    width: 250px;
+   margin-top:-80px;
+    opacity:0;
+    transition: .5s ease;
+    position:absolute;
+    padding-top: 10px;
+    background: #fff;
+}
+.overlay button{
+    margin-bottom:5px;
+    margin-left:25px;
+}
+  .image_container:hover .overlay {
+    opacity: 1;
+  }
+  .Productimage {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .del{
+      font-size:12px;
+      
+  }
+  .container {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  .reviews p{
+      font-size:14px;
+      height: 20px;
+  }
+ 
+  @media (max-width:768px){
+    .Productcard_child{
+        margin-left:0px;
+    }
+}

@@ -1,0 +1,29 @@
+.Product_header{
+    width: 230px;
+    height: 380px;
+    background-color: rgb(253, 252, 252);
+  
+    margin-left: 40px;
+    
+}
+
+.logo img{
+    width: 100px;
+    height: 50px;
+    margin-left: 60px;
+  
+}
+.image_layout img{
+    margin-left: 10px;
+    width: 200px;
+  
+    margin-top: 5px;
+}
+
+.brand_name{
+    font-size: 18px;
+    
+}
+.Product_layout{
+    align-items: center;
+}
